@@ -9,9 +9,9 @@ The framework of our proposed JSSI, which includes a shared-and-specific feature
 The multi-view dataset for testing is located in the "data" folder, and the dataset for training needs to be extracted from the COCO dataset using the tools in the "data_tool" folder.
 
 ## Requirements
-numpy==1.23.5
-torchvision==0.15.2
-torch>=2.0.1
+numpy==1.23.5  
+torchvision==0.15.2  
+torch>=2.0.1  
 
 ## Usage
 The network structure and training/testing pipeline are in ACmodel.py, ACtrain.py and ACtest.py.  
